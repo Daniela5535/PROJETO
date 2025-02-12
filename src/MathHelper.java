@@ -8,19 +8,19 @@ class MathHelper {
     }
 
     public static int maior(int[] numeros) {
-        int max = numeros[0];
+        int numaior = numeros[0];
         for (int num : numeros) {
-            if (num > max) {
-                max = num;
+            if (num > numaior) {
+                numaior = num;
             }
         }
-        return max;
+        return numaior;
     }
 
     public static int soma(int[] numeros) {
         int soma = 0;
         for (int num : numeros) {
-            soma += num;
+            soma = num +num;
         }
         return soma;
     }
@@ -28,7 +28,7 @@ class MathHelper {
     public static double media(double[] numeros) {
         double soma = 0;
         for (double num : numeros) {
-            soma += num;
+            soma = num + num;
         }
         return soma / numeros.length; 
     }
