@@ -30,7 +30,7 @@ class MathHelper {
         for (double num : numeros) {
             soma += num;
         }
-        return soma / numeros.length; // Garantimos que pelo menos 1 número é inserido antes de chamar este método
+        return soma / numeros.length; 
     }
 }
 
